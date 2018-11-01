@@ -5,8 +5,8 @@ from n8mentor-flask import n8mentor-flask as application
 
 <VirtualHost *>
         ServerName n8wacht.com
-        WSGIScriptAlias / C:\Users\n9ghtLY\Projects\mentor\n8mentor-flask.wsgi
-        <Directory C:\Users\n9ghtLY\Projects\mentor>
+        WSGIScriptAlias / /var/www/n8mentor/n8mentor-flask.wsgi
+        <Directory /var/www/n8mentor>
                 Order deny,allow
                 Allow from all
         </Directory>
